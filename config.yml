@@ -10,10 +10,13 @@
 ##  The list of connector clients/customized connectors configurations.
 ##    Each object in the list requires `connector_id` and `service_type`.
 ##    An example is:
-##    connectors:
-##      - connector_id: changeme # the ID of the connector.
-##        service_type: changeme # The service type of the connector.
-##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
+connectors:
+  connector_id: "NHUpdIsBq0JNiJIcmhKu"
+  service_type: "onedrive"
+  api_key: "RmdrcGRJc0JUdms3aGV4eDk0S2g6aWt1ZmxubVhTZmloeTlXa2lDa0RiQQ=="
+elasticsearch:
+  host: "https://1445b48374c541d0b64ebd2bb543d324.us-central1.gcp.cloud.es.io:443"
+  api_key: "RmdrcGRJc0JUdms3aGV4eDk0S2g6aWt1ZmxubVhTZmloeTlXa2lDa0RiQQ=="
 #connectors: []
 #
 #
