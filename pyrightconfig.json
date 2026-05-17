@@ -13,7 +13,8 @@
   "executionEnvironments": [
     {
       "root": "./",
-      
+      "venvPath": ".",
+      "venv": ".venv"
     }
   ]
 }
